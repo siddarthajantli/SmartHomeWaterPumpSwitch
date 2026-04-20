@@ -107,10 +107,10 @@ water/pump/status
 * Enter: 
 * Thing Name: water-pump-node (or your choice)
 * Select Auto-generate certificate 
-* Download the following files: 
-	o	Device Certificate (certificate.pem.crt) 
-	o	Private Key (private.pem.key) 
-	o	Public Key 
+* Download the following files:  \
+	* Device Certificate (certificate.pem.crt) \ 
+	* Private Key (private.pem.key)  \
+	* Public Key 
 
 * Finish
 
