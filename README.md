@@ -91,12 +91,12 @@ water/pump/status
 * Click Create Policy 
 * Enter: 
 * Name: iot-full-access-policy 
-* Add Policy Statement: 
-{
-  "Effect": "Allow",
-  "Action": "iot:*",
-  "Resource": "*"
-}
+* Add Policy Statement: \
+{ \
+  "Effect": "Allow", \
+  "Action": "iot:*", \
+  "Resource": "*" \
+} 
 * Click Create
 
 ## Step 2: Create a Thing
@@ -107,11 +107,10 @@ water/pump/status
 * Enter: 
 * Thing Name: water-pump-node (or your choice)
 * Select Auto-generate certificate 
-* Download the following files:  \
-	* Device Certificate (certificate.pem.crt) \ 
-	* Private Key (private.pem.key)  \
+* Download the following files:  
+	* Device Certificate (certificate.pem.crt) 
+	* Private Key (private.pem.key)  
 	* Public Key 
-
 * Finish
 
 ## Step 3: Get MQTT Endpoint
