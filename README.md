@@ -41,13 +41,13 @@ GND	GND
 SIGNAL	D7
 
 ## AWS IoT Topics
-Subscribe:
-water/pump/control
-Publish:
-water/pump/status
+Subscribe: \
+water/pump/control \
+Publish: \
+water/pump/status \
 
 ## Commands:
-{"cmd":"on"}
+{"cmd":"on"} \
 {"cmd":"off"}
 {"cmd":"reset"}
 {"cmd":"auto"}
