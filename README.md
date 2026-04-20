@@ -39,8 +39,8 @@ GND	GND
 SIGNAL	D7
 
 ### Tank Node Circuit Daigram:
+<img width="1022" height="855" alt="image" src="https://github.com/user-attachments/assets/84bbbf73-f582-47c3-baca-8c0bb469c970" />
 
-<img width="1536" height="1024" alt="ChatGPT Image Apr 20, 2026, 01_56_27 PM" src="https://github.com/user-attachments/assets/422128e9-c47b-4b24-88d1-5b95cfa7f2de" />
 
 ### WIRING — Pump Node (Minimal)
 ### Relay
@@ -60,7 +60,7 @@ VCC	3.3V
 GND	GND
 
 ## Pump Node Circuit Daigram:
-<img width="1536" height="1024" alt="ChatGPT Image Apr 20, 2026, 02_13_08 PM" src="https://github.com/user-attachments/assets/fc63343a-34f7-4227-b96a-f2cce1be5675" />
+<img width="817" height="860" alt="image" src="https://github.com/user-attachments/assets/26bad651-c249-44fe-8ca9-3da887f2b205" />
 
 
 ## AWS IoT Topics
