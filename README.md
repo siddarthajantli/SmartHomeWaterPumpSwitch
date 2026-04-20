@@ -44,20 +44,20 @@ SIGNAL	D7
 
 ### WIRING — Pump Node (Minimal)
 ### Relay
-Relay	ESP8266
-IN	   D1
-VCC	5V
-GND	GND
+Relay	ESP8266 \
+IN	   D1 \
+VCC	5V \
+GND	GND \
 ### Button
-Button   ESP8266
-One-Side   D6
-Other      GND
+Button   ESP8266 \
+One-Side   D6 \
+Other      GND 
 ### OLED (U8g2 I2C)
-OLED	ESP8266
-SDA	D2
-SCL	D3
-VCC	3.3V
-GND	GND
+OLED	ESP8266 \
+SDA	D2 \
+SCL	D3 \
+VCC	3.3V \
+GND	GND 
 
 ## Pump Node Circuit Daigram:
 <img width="817" height="860" alt="image" src="https://github.com/user-attachments/assets/26bad651-c249-44fe-8ca9-3da887f2b205" />
@@ -80,6 +80,7 @@ water/pump/status
 * Leak Detection
 * Current Sensor
 * Usage Analytics
+
 
 
 
