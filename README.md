@@ -25,7 +25,7 @@ OLED SSD1306
 2: Pump node
    
 ## Wiring: 
-### WIRING — Tank Node (Minimal)
+### WIRING â€” Tank Node (Minimal)
 
 ### Ultrasonic (JSN-SR04T)
 Sensor	ESP8266
@@ -59,8 +59,10 @@ water/pump/status
 * Usage Analytics
 
 ## Tank Node Circuit Daigram:
+<img width="1022" height="855" alt="image" src="https://github.com/user-attachments/assets/3e5c1374-bcb8-4242-957c-7a2d3929fcca" />
 
 
+## Pump Node Circuit Daigram:
 
 
 Sidd
