@@ -12,12 +12,12 @@ Automatic water tank motor controller using ESP8266, ESP-NOW, AWS IoT Core, OLED
 * ESP-NOW wireless tank sensor node
 
 ## Hardware Used: 
-ESP8266 NodeMCU
-Ultrasonic Sensor
-Water Flow Sensor
-Relay Module
-OLED SSD1306
-5V Power Supply
+ESP8266 NodeMCU \
+Ultrasonic Sensor \
+Water Flow Sensor \ 
+Relay Module \
+OLED SSD1306 \
+5V Power Supply 
 
 ## Nodes:  
 ### We have two nodes available.
@@ -27,16 +27,16 @@ OLED SSD1306
 ## Wiring: 
 ### WIRING — Tank Node (Minimal)
 ### Ultrasonic (JSN-SR04T)
-Sensor	ESP8266
-VCC	5V
-GND	GND
-TRIG	D5
+Sensor	ESP8266 \
+VCC	5V \
+GND	GND \
+TRIG	D5 \
 ECHO	D6 
 ### Flow Sensor
-Sensor	ESP8266
-VCC	5V
-GND	GND
-SIGNAL	D7
+Sensor	ESP8266 \
+VCC	5V \
+GND	GND \
+SIGNAL	D7 
 
 ### Tank Node Circuit Daigram:
 <img width="1022" height="855" alt="image" src="https://github.com/user-attachments/assets/84bbbf73-f582-47c3-baca-8c0bb469c970" />
@@ -47,7 +47,7 @@ SIGNAL	D7
 Relay	ESP8266 \
 IN	   D1 \
 VCC	5V \
-GND	GND \
+GND	GND 
 ### Button
 Button   ESP8266 \
 One-Side   D6 \
