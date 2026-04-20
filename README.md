@@ -91,7 +91,7 @@ water/pump/status
 * Click Create Policy 
 * Enter: 
 * Name: iot-full-access-policy 
-* Add Policy Statement: \
+* Add Policy Statement:  \
 { \
   "Effect": "Allow", \
   "Action": "iot:*", \
