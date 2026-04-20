@@ -44,19 +44,23 @@ SIGNAL	D7
 Subscribe: \
 water/pump/control \
 Publish: \
-water/pump/status \
+water/pump/status
 
 ## Commands:
 {"cmd":"on"} \
-{"cmd":"off"}
-{"cmd":"reset"}
-{"cmd":"auto"}
+{"cmd":"off"} \
+{"cmd":"reset"} \
+{"cmd":"auto"} \
 
 ## Future Improvements
 - Telegram Alerts
 - Leak Detection
 - Current Sensor
 - Usage Analytics
+
+
+
+
 
 Sidd
 AWS Cloud Engineer + Maker
