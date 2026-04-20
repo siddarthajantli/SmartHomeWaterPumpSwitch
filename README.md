@@ -26,19 +26,42 @@ OLED SSD1306
    
 ## Wiring: 
 ### WIRING — Tank Node (Minimal)
-
 ### Ultrasonic (JSN-SR04T)
 Sensor	ESP8266
 VCC	5V
 GND	GND
 TRIG	D5
 ECHO	D6 
-
 ### Flow Sensor
 Sensor	ESP8266
 VCC	5V
 GND	GND
 SIGNAL	D7
+
+### Tank Node Circuit Daigram:
+
+<img width="1536" height="1024" alt="ChatGPT Image Apr 20, 2026, 01_56_27 PM" src="https://github.com/user-attachments/assets/422128e9-c47b-4b24-88d1-5b95cfa7f2de" />
+
+### WIRING — Pump Node (Minimal)
+### Relay
+Relay	ESP8266
+IN	   D1
+VCC	5V
+GND	GND
+### Button
+Button   ESP8266
+One-Side   D6
+Other      GND
+### OLED (U8g2 I2C)
+OLED	ESP8266
+SDA	D2
+SCL	D3
+VCC	3.3V
+GND	GND
+
+## Pump Node Circuit Daigram:
+<img width="1536" height="1024" alt="ChatGPT Image Apr 20, 2026, 02_13_08 PM" src="https://github.com/user-attachments/assets/fc63343a-34f7-4227-b96a-f2cce1be5675" />
+
 
 ## AWS IoT Topics
 Subscribe: \
@@ -58,11 +81,9 @@ water/pump/status
 * Current Sensor
 * Usage Analytics
 
-## Tank Node Circuit Daigram:
-<img width="1022" height="855" alt="image" src="https://github.com/user-attachments/assets/3e5c1374-bcb8-4242-957c-7a2d3929fcca" />
 
 
-## Pump Node Circuit Daigram:
+
 
 
 Sidd
