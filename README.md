@@ -25,16 +25,16 @@ OLED SSD1306
 2: Pump node
    
 ## Wiring
-###WIRING — Tank Node (Minimal)
+### WIRING — Tank Node (Minimal)
 
-###Ultrasonic (JSN-SR04T)
+### Ultrasonic (JSN-SR04T)
 Sensor	ESP8266
 VCC	5V
 GND	GND
 TRIG	D5
 ECHO	D6 
 
-###Flow Sensor
+### Flow Sensor
 Sensor	ESP8266
 VCC	5V
 GND	GND
