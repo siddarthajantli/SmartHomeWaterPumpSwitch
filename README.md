@@ -119,7 +119,7 @@ water/pump/status
 	* Endpoint (example: xxxx-ats.iot.ap-south-1.amazonaws.com) 
 
 Before configuring the IoT MQTT application, generate the .p12 certificate with a password by running the command below. \
-### * openssl pkcs12 -export -out <Certificate_name>.p12 -inkey <key.pem file> -in <cert.pem file> *
+### *openssl pkcs12 -export -out <Certificate_name>.p12 -inkey <key.pem file> -in <cert.pem file>*
 
 
 ## Configuration of IoT MQTT Android Application
