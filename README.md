@@ -82,6 +82,42 @@ water/pump/status
 * Usage Analytics
 
 
+# AWS IoT Core Configuration Guide
+## Prerequisites
+* AWS account 
+* Access to AWS Console 
+
+## Step 1: Create IoT Policy
+* Click Create Policy 
+* Enter: 
+* Name: iot-full-access-policy 
+* Add Policy Statement: 
+{
+  "Effect": "Allow",
+  "Action": "iot:*",
+  "Resource": "*"
+}
+* Click Create
+
+## Step 2: Create a Thing
+* Go to AWS Console → IoT Core 
+* Navigate to Manage → Things 
+* Click Create Thing 
+* Select Create single thing 
+* Enter: 
+* Thing Name: water-pump-node (or your choice)
+* Select Auto-generate certificate 
+* Download the following files: 
+	o	Device Certificate (certificate.pem.crt) 
+	o	Private Key (private.pem.key) 
+	o	Public Key 
+
+* Finish
+
+## Step 3: Get MQTT Endpoint
+* Go to Settings 
+* Copy: 
+	* Endpoint (example: xxxx-ats.iot.ap-south-1.amazonaws.com) 
 
 
 
