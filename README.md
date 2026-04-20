@@ -11,7 +11,7 @@ Automatic water tank motor controller using ESP8266, ESP-NOW, AWS IoT Core, OLED
 * OLED live tank UI 
 * ESP-NOW wireless tank sensor node
 
-## Hardware Used
+## Hardware Used: 
 ESP8266 NodeMCU
 Ultrasonic Sensor
 Water Flow Sensor
@@ -21,10 +21,10 @@ OLED SSD1306
 
 ## Nodes:  
 ### We have two nodes available.
-1: Tank node
+1: Tank node \
 2: Pump node
    
-## Wiring
+## Wiring: 
 ### WIRING — Tank Node (Minimal)
 
 ### Ultrasonic (JSN-SR04T)
@@ -53,11 +53,12 @@ water/pump/status
 {"cmd":"auto"} 
 
 ## Future Improvements
-- Telegram Alerts
-- Leak Detection
-- Current Sensor
-- Usage Analytics
+* Telegram Alerts
+* Leak Detection
+* Current Sensor
+* Usage Analytics
 
+## Tank Node Circuit Daigram:
 
 
 
