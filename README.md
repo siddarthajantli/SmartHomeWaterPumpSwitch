@@ -50,7 +50,7 @@ water/pump/status
 {"cmd":"on"} \
 {"cmd":"off"} \
 {"cmd":"reset"} \
-{"cmd":"auto"} \
+{"cmd":"auto"} 
 
 ## Future Improvements
 - Telegram Alerts
