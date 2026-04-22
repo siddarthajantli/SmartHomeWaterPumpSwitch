@@ -127,12 +127,39 @@ Before configuring the IoT MQTT application, generate the .p12 certificate with 
 Before starting, make sure you have the following:
 * An Android MQTT client application installed on your mobile device 
 * MQTT broker endpoint 
-* Port number 
 * Client ID  
 * SSL/TLS certificates, if required by the broker 
 * Active internet connection 
+   
+## Configuration Steps
+1. Install the IoT MQTT Android Application (Tested In Andriod Phone so refering tio Andsiod OS.)   
+Download and install a compatible MQTT client application from the Google Play Store.    
+2. Open the Application.    
+Launch the MQTT application on your Android device.    
+3. Create a New Connection  
+Select the option to add a new broker connection or create a new profile.   
+4. Enter Broker Details   
 
-
-
+### Provide the required broker information:  
+Connection Name: Any friendly name for identification.   
+Server URL / Host: MQTT broker endpoint.   
+Port: Usually 1883 for non-SSL or 8883 for SSL (Using SSL so 8883).   
+Client ID: Unique client identifier.   
+5. Configure Security Settings.   
+	If your broker uses secure communication:    
+	Enable SSL/TLS.      
+	Upload or select the required CA certificate.    
+	Add client certificate and private key if the application supports mutual TLS authentication.   
+6. Enter Authentication Details.   
+7. Save the Configuration.     
+Save the broker profile after entering all required details.     
+8. Connect to the Broker.     
+Tap the connect button and verify that the client successfully connects to the MQTT broker.   
+    
+    
+    
+    
+   
+        
 Sidd
 AWS Cloud Engineer + Maker
