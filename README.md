@@ -161,7 +161,7 @@ The CPP file for retrieving the MAC address is also available in the Node folder
 
     
 \
-\   
-\        
-Sidd
+  
+           
+Sidd   
 AWS Cloud Engineer + Maker
