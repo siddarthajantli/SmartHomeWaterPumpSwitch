@@ -153,12 +153,14 @@ Client ID: Unique client identifier.
 6. Enter Authentication Details.     
 7. Save the Configuration.     
 Save the broker profile after entering all required details.     
-8. After successfully configuring the broker, add buttons or a toggle switch to manually turn the water pump ON/OFF. \            
+8. After successfully configuring the broker, add buttons or a toggle switch to manually turn the water pump ON/OFF.              
 	* Subscribe to the topic water/pump/control and use payloads such as on, off, reset, and auto for ON/OFF, RESET & AUTO control.     
     
 
+The CPP files for both the Tank node and Pump node are available in the Node folder. If needed, you can tweak the OLED display settings and use them as required.  
+
     
-    
+
    
         
 Sidd
