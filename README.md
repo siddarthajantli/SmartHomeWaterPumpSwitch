@@ -145,16 +145,16 @@ Connection Name: Any friendly name for identification.
 Server URL / Host: MQTT broker endpoint.   
 Port: Usually 1883 for non-SSL or 8883 for SSL (Using SSL so 8883).   
 Client ID: Unique client identifier.        
-5. Configure Security Settings. \
-* If your broker uses secure communication:    
-* Enable SSL/TLS.      
-* Upload or select the required CA certificate.    
-* Add client certificate and private key if the application supports mutual TLS authentication.   
-6. Enter Authentication Details.   
+5. Configure Security Settings.  
+	* If your broker uses secure communication:    
+	* Enable SSL/TLS.      
+	* Upload or select the required CA certificate.    
+	* Add client certificate and private key if the application supports mutual TLS authentication.      
+6. Enter Authentication Details.     
 7. Save the Configuration.     
 Save the broker profile after entering all required details.     
 8. After successfully configuring the broker, add buttons or a toggle switch to manually turn the water pump ON/OFF. \            
-* Subscribe to the topic water/pump/control and use payloads such as on, off, reset, and auto for ON/OFF, RESET & AUTO control.     
+	* Subscribe to the topic water/pump/control and use payloads such as on, off, reset, and auto for ON/OFF, RESET & AUTO control.     
     
 
     
