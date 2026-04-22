@@ -156,8 +156,7 @@ Save the broker profile after entering all required details.
 	* Subscribe to the topic water/pump/control and use payloads such as on, off, reset, and auto for ON/OFF, RESET & AUTO control.     
     
 
-The CPP files for both the Tank node and Pump node are available in the Node folder. If needed, you can tweak the OLED display settings and use them as required.    
-The CPP file for retrieving the MAC address is also available in the Node folder. Use it to obtain the MAC address of the Pump node ESP8266 and configure it in the Tank node code.   
+The CPP files for both the Tank node and Pump node are available in the Node folder. If needed, you can tweak the OLED display settings and use them as required. Code for retrieving the MAC address is also available in the Node folder. Use it to obtain the MAC address of the Pump node ESP8266 and configure it in the Tank node code.   
 
     
 \
